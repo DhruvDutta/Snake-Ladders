@@ -98,6 +98,8 @@ function num1(){
     }
     if(eval(num)==18){
         alert("Three 6s");
+        i+=1;
+        act();
         return
     }
     num=eval(num);
