@@ -1,31 +1,29 @@
 .board{
     margin-top: 1em;
-    width: 100%;
-    max-width: 40em;
+    width: 40em;
     
 }
 .r,.b{
     position: absolute;
-    width: 1.5em;
+    width: 2.4em;
     transition: .2s;
     border-radius: 10em;
     border: 1em;
     box-shadow: .1em .1em .5em black;
 }
 .r{
-    left: 12.5%;
-    top:60%;
+    left: 4.8em;
+    top:33.5em;
 }
 .b{
-    left: 12.5%;
-    top:60%;
+    left: 4.8em;
+    top:33.5em;
     filter: invert();
     box-shadow: .1em .1em .5em white;
 }
 #num,#nu{
     position: relative;
-    margin: 0 auto;
-    
+    margin: 0 8.5em;
     top: 1em;
     width: 3em;
     height: 1.5em;
