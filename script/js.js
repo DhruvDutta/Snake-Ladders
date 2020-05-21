@@ -28,11 +28,11 @@ function moveto(n,dice){
     var col = n%10;
     console.log(n+1,row,col);
     if(row%2==0){
-        r.left = (col*7.81 + 12.5) +"%";
-        r.top = (60 - row*5.53) + "%";
+        r.left = (col*3.255 + 4.8) +"em";
+        r.top = (33.5 - row*3.166) + "em";
     }else{
-        r.left = (82.8 - col*7.81) +"%";
-        r.top = (60 - row*5.53) + "%";
+        r.left = (34.1 - col*3.255) +"em";
+        r.top = (33.5 - row*3.166) + "em";
     }
     if(n+1==100){
         alert(dice+" Wins!!");
@@ -116,7 +116,7 @@ function num1(){
         i+=1;
         if(g!=undefined){
         b=g;
-        //sORl(b,"b")
+        sORl(b,"b")
         kill("r");
         }else if(a==100){
             i+=1;
